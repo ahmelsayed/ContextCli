@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ContextCli.Actions
+{
+    class Add : AbstractAction
+    {
+        public Add(IContext context) : base(context)
+        {
+        }
+
+        public override Task RunAsync()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
